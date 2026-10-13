@@ -24,7 +24,11 @@ Install `dsh-subagent-antigravity` into a Profile when delegated work should run
 <a id="use-this-package"></a>
 ## Use this package
 
-Enable **Antigravity subagent** on the plugins page, or install with `dsh plugin --profile <name> add dsh-subagent-antigravity`, when tasks should run in a fresh native Antigravity CLI session inside the parent workspace.
+Enable **Antigravity subagent** on the plugins page when tasks should run in a fresh native Antigravity CLI session inside the parent workspace. Before official-catalog admission, install straight from this repository (the installer accepts git specs, and `prepare` builds `lib/` automatically):
+
+```bash
+dsh plugin --profile <name> add https://github.com/Ring1003/dsh-subagent-antigravity
+```
 
 ### Prerequisites
 

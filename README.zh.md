@@ -24,7 +24,11 @@ kind: "package-bundle"
 <a id="use-this-package"></a>
 ## 使用本包
 
-当任务需要在父工作区中运行全新的原生 Antigravity CLI 会话时，在插件页启用 **Antigravity 子智能体**，或通过 `dsh plugin --profile <name> add dsh-subagent-antigravity` 安装。
+当任务需要在父工作区中运行全新的原生 Antigravity CLI 会话时，在插件页启用 **Antigravity 子智能体**。未进入官方目录前，可直接从本仓库安装（安装器支持 git 规格，`prepare` 会自动构建 `lib/`）：
+
+```bash
+dsh plugin --profile <name> add https://github.com/Ring1003/dsh-subagent-antigravity
+```
 
 ### 前置条件
 
