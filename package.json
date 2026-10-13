@@ -34,6 +34,7 @@
     "test:smoke": "tsx test/smoke.ts"
   },
   "license": "MIT",
+  "icon": "./icon.svg",
   "dsh": {
     "bundle": {
       "patch": "./cordis.patch.yml"
