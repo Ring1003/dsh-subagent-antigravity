@@ -26,6 +26,8 @@
     "icon.svg",
     "locale/*.json",
     "lib/index.js",
+    "lib/run.js",
+    "lib/wire.js",
     "cordis.patch.yml",
     "lib/types/**/*.d.ts"
   ],
