@@ -30,6 +30,7 @@
     "lib/types/**/*.d.ts"
   ],
   "scripts": {
+    "prepare": "tsc -p tsconfig.build.json",
     "check": "tsc -p tsconfig.json",
     "test:smoke": "tsx test/smoke.ts"
   },
